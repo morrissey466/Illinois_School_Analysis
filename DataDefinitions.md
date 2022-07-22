@@ -30,7 +30,7 @@ https://www.isbe.net/Documents/2018-Report-Card-Glossary-Terms.pdf
 
     Bachelor Degree - The percentage of all full-time classroom teachers who have a Bachelor's Degree. 
 
-    Masters Degree = The percentage of all full-time classroom teachers who have a Bachelor's Degree. 
+    Masters Degree - The percentage of all full-time classroom teachers who have a Masters Degree. 
 
     Teacher Retention Rate - The three-year average of the percentage of full-time teachers returning to the same school from the previous year. 
 
