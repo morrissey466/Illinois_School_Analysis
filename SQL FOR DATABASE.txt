@@ -1,0 +1,77 @@
+CREATE TABLE financials (
+        "RCDTS" varchar,
+        "Type" varchar ,
+        "District" varchar,
+        "City" varchar, 
+        "County" VARCHAR,
+        "District Type" varchar, 
+        "District Size" varchar, 
+        "Total School Tax Rate per $100 2016-17" varchar, 
+        "Total Expenditures 2016-17" varchar, 
+        "Education Fund 2016-17 - Dollars" varchar, 
+        "General Admin 2016-17 - Dollars" varchar, 
+        "Local Property Taxes 2016-17 - Dollars" varchar, 
+        "General State Aid 2016-17 - Dollars" varchar, 
+        "Federal Funding 2016-17 - Dollars" varchar,
+        PRIMARY KEY (RCDTS)
+	);
+	
+
+
+CREATE TABLE high_school (
+    "RCDTS" varchar,
+    "Type" varchar,
+    "District" varchar,
+    "School Type" varchar, 
+    "City" varchar,
+    "County" varchar,
+    "District Type" varchar, 
+    "District Size" varchar, 
+    "Student Enrollment - Total" float,
+    "Student Enrollment - Low Income %" float, 
+    "Avg Class Size – All Grades" float, 
+    "Teacher Retention Rate" float, 
+    "# of 12 graders who took advanced Courses" float, 
+    "Avg Number of days of Physical Education Per Week Per Student" float,
+    "Community College Remediation %" float, 
+    "Avg Class Size - High School" float,
+    "Chronic Absenteeism" float, 
+    "Number of students who took AP Exams Grade 10" float, 
+    "Number of students who passed AP Exams Grade 12" float, 
+    "Chronic Absenteeism - Low Income" float,
+    "Low Income Count" float,
+    Primary KEY ("RCDTS")
+);
+
+
+
+CREATE TABLE district (
+    "RCDTS" varchar, 
+    "Type" varchar, 
+    "District" varchar, 
+    "City" varchar, 
+    "County" varchar, 
+    "District Type" varchar, 
+    "District Size" varchar, 
+    "Student Enrollment - Total" varchar, 
+    "Student Enrollment - Low Income %" varchar,
+    "Avg Class Size – All Grades" varchar, 
+    "Avg Teaching Exp" varchar, 
+    "Bachelor Degree" varchar, 
+    "Masters Degree " varchar, 
+    "Teacher Retention Rate" varchar, 
+    "Teacher Avg Salary" varchar, 
+    "Admin Avg Salary" varchar,
+    PRIMARY KEY ("RCDTS")
+);
+
+CREATE TABLE test_scores (
+	"RCDTS" varchar, 
+	"County" varchar, 
+	"Dist # " varchar, 
+	"District Name/ School Name" varchar, 
+	"City" varchar, 
+	"ELA" varchar, 
+	"Math" varchar, 
+	PRIMARY KEY ("RCDTS")
+);
