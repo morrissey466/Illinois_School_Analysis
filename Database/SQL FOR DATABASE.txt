@@ -75,3 +75,34 @@ CREATE TABLE test_scores (
 	"Math" varchar, 
 	PRIMARY KEY ("RCDTS")
 );
+
+CREATE TABLE district_test_scores (
+	"RCDTS" varchar, 
+	"County" varchar, 
+	"Dist # " varchar, 
+	"District Name/ School Name" varchar, 
+	"City" varchar, 
+	"ELA" varchar, 
+	"Math" varchar, 
+	PRIMARY KEY ("RCDTS")
+);
+
+CREATE TABLE district_test_scores (
+	"RCDTS" varchar, 
+	"County" varchar, 
+	"Dist # " varchar, 
+	"District Name/ School Name" varchar, 
+	"City" varchar, 
+	"ELA" varchar, 
+	"Math" varchar, 
+	PRIMARY KEY ("RCDTS")
+);
+
+
+Create table District_Combined AS (
+
+select * 
+
+from financials
+
+Inner Join district on financials."RCDTS" = district."RCDTS"); 
