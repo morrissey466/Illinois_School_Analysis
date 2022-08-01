@@ -140,7 +140,7 @@ Teacher Retention Rate - The three-year average of the percentage of full-time t
 <br/>
 <pre>
 
-### Communications Protoctal
+### Communications Protocol
 
 How we coordinated this project. 
 
