@@ -100,6 +100,8 @@ CREATE TABLE district_test_scores (
 
 INNER JOIN 
 
+Create table financials_student_count AS (
+
 select 
 	financials."Type"  ,
 	financials."District" ,
