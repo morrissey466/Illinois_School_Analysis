@@ -131,3 +131,4 @@ dmypy.json
 .gitignore
 Resources/.DS_Store
 Resources/.DS_Store
+Database/RDS Python/config.py

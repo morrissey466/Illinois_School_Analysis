@@ -1,20 +1,20 @@
 CREATE TABLE financials (
-        "RCDTS" varchar,
-        "Type" varchar ,
-        "District" varchar,
-        "City" varchar, 
-        "County" VARCHAR,
-        "District Type" varchar, 
-        "District Size" varchar, 
-        "Total School Tax Rate per $100 2016-17" varchar, 
-        "Total Expenditures 2016-17" varchar, 
-        "Education Fund 2016-17 - Dollars" varchar, 
-        "General Admin 2016-17 - Dollars" varchar, 
-        "Local Property Taxes 2016-17 - Dollars" varchar, 
-        "General State Aid 2016-17 - Dollars" varchar, 
-        "Federal Funding 2016-17 - Dollars" varchar,
-        PRIMARY KEY (RCDTS)
-	);
+    "RCDTS" varchar,
+    "Type" varchar ,
+    "District" varchar,
+    "City" varchar, 
+    "County" VARCHAR,
+    "District Type" varchar, 
+    "District Size" varchar, 
+    "Total School Tax Rate per $100 2016-17" varchar, 
+    "Total Expenditures 2016-17" varchar, 
+    "Education Fund 2016-17 - Dollars" varchar, 
+    "General Admin 2016-17 - Dollars" varchar, 
+    "Local Property Taxes 2016-17 - Dollars" varchar, 
+    "General State Aid 2016-17 - Dollars" varchar, 
+    "Federal Funding 2016-17 - Dollars" varchar,
+    PRIMARY KEY (RCDTS)
+);
 	
 
 
