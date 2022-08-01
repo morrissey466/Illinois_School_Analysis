@@ -15,9 +15,16 @@ https://www.isbe.net/pages/illinois-state-report-card-data.aspx
 
 The defintions for each factor tested are listed at the bottom of this page. 
 
-Lastly the machine learning alogrithm testing will be detialed out as follows in this section.  
+Lastly the machine learning alogrithm testing will be detialed out as follows below:  
 
-Work In Progress:
+Description of preliminary data preprocessing
+The data was pulled from Illinois State Board of Education. We cleaned the data to retrieve our dependent and independent variables.
+
+Description of preliminary features engineering and preliminary feature selection, including their decision-making process
+The data can’t be divided into two separate categories because of the mass amount of score variations. This led us to use linear regression over classification analysis.
+
+Description of how data was split into training and testing sets
+We used scikit-learn to split the data into four data sets (two being training sets and two being testing sets) and calculated a summary report. X would hold the independent variables and Y would hold the dependent variable. After getting our model.fit, scikit-learn calculates the Y_prediction which is used to get a summary report. The summary report consists of R squared score, mean squared error, and root mean squared error.
 
 
 ## Group Workflow
@@ -32,6 +39,12 @@ While reviewing the data as shown through the "clean_data" notebook.  We choose 
 
 ### Load
 Once we finalized the dataframe it was then loaded in Amazon Web Services (AWS) in the form of a relational database.  This way the finalized dataframe could be downloaded publicly.  The dataframe was also sent into a CSV file on this github repository.
+
+#### -Database Layout
+
+The below layout is a visual for how our different databases are joined.  The RCDTS is the primary key for all four tables.  
+
+![data_tables](https://github.com/smlit30/Project_Test/blob/main/data_tables.jpg)
 
 ### Visualize 
 Lastly various visuals were created to give any casual viewer a better understanding of what the data means, how to interpret it and hopefully some usefull insights on how to move forward in the future.  
@@ -120,4 +133,29 @@ Teacher Retention Rate - The three-year average of the percentage of full-time t
 </details>
 
 
+## Team Work Factors
 
+<details open>
+<summary>Communications & Presentations</summary>
+<br/>
+<pre>
+
+### Communications Protocol
+
+How we coordinated this project. 
+
+To make sure all team members stayed on the same page we met at least four times a week.  Two for each of the class times during the week (including the office hours in case additional help was needed).  We met an hour prior to Saturday office hours so that we could coordinate any help needed from our TA's and again on Sundays if needed prior to submitting the weekly deliverable.  
+
+In person meetings were set up through Zoom calls between the four members. 
+
+We coordinated our meet ups and zoom calls through the slack app.  This allowed us to keep up with each others progress, ask questions and provide assitance as needed.  We had two channels, one of which was just the team members and the others were the team members and the TA's.  
+
+Project & coding communication was done through github where we could each upload our work where others could see it.  
+
+
+### Presentation Information
+
+https://docs.google.com/presentation/d/1sUJlMlsgifso6Dr9J_aTH_MecfJC7vevpyQWsx8IgJI/edit#slide=id.g13ee678766f_0_283
+
+</pre>
+</details>
