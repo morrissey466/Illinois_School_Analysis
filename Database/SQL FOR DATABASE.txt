@@ -98,10 +98,24 @@ CREATE TABLE district_test_scores (
 	PRIMARY KEY ("RCDTS")
 );
 
+INNER JOIN 
 
-Create table District_Combined AS (
-
-select * 
+select 
+	financials."Type"  ,
+	financials."District" ,
+	financials."City" , 
+	financials."County" ,
+	financials."District Type" , 
+	financials."District Size" , 
+	financials."Total School Tax Rate per $100 2016-17" , 
+	financials."Total Expenditures 2016-17" , 
+	financials."Education Fund 2016-17 - Dollars" , 
+	financials."General Admin 2016-17 - Dollars" , 
+	financials."Local Property Taxes 2016-17 - Dollars" , 
+	financials."General State Aid 2016-17 - Dollars" , 
+	financials."Federal Funding 2016-17 - Dollars" ,
+	district."Student Enrollment - Total"
+	
 
 from financials
 
