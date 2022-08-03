@@ -132,3 +132,4 @@ dmypy.json
 Resources/.DS_Store
 Resources/.DS_Store
 Database/RDS Python/config.py
+Resources/config.py
