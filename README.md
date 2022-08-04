@@ -5,15 +5,43 @@
 </div>
 
 ## Objective
-The purpose of this project was to analyze which factors are most strongly correlated with student performance.  To get into the details here lets define what we consider performance for the students, the group of students analyzed and the data itself.    
+Throughout this project our team aimed to see which factors might be most strongly correlated with school perforamnce results.  In the preceeding text we will provide context on how we gathered our data (including what we didn't include), how we transformed the data from its original context to something that could be put into a database and tested through machine learning.  Then finally show visualizations that accurately reflect what we found.  
 
-In this review performance will simply be how students scored on standardized testing on SAT, Math & ELA performance scores.  
+   
+## Group Workflow
 
-The group of students included in the data from the Illinois State Board of education data as linked to below. 
+<div id="header" align="center">
+    <img src="https://github.com/smlit30/Project_Test/blob/main/Workflow_7_22.jpg" width="900"/>
+</div>
+
+### Extract
+There is an abundance of school data out on the internet so the first challenge was selecting usable data.  We first considered nationwide by state but different states record results with different breakdowns and tracking methods.  This lead us to choose one state that collected all of its data the same way and the state that did this the best was Illinois.  
+
+The most reliable information we could find was from the Illinois State Board of Education found at the below URL. 
 
 https://www.isbe.net/pages/illinois-state-report-card-data.aspx
 
-The defintions for each factor tested are listed at the bottom of this page. 
+In this dataset we found the best performance metrics were the results from Standardized test metrics on Math & ELA (English & Language Arts) scores.  
+
+In the next section, Transform, we will go through the tools and methods used to filter this information down to be useful.  
+
+### Transform 
+To transform the data to be more usable in our test we looked at all the factors that data was collected on including proficiency from low income families, total students (with breakdown by race and age), attendance rate, mobility rate, dropout & graduation rates with many others. Using Python & Pandas we created filters so that we dropped any data that didn't have sufficient data collected (less than 750 districts).  Our team then reviewed the remaining data and used what we though would have the strongest correlation to the test performance results.  
+
+The main tools here were simply using python & pandas to create and manipulate dataframes from the initial csv files downloaded from the state.  
+
+### Load
+Using python the dataframes were then uploaded to a sql database hosted on Amazon Web Services.  This way the end results could be pulled from a public database and available to the public.  
+
+The relational database layout is set up as shown below with the primary key as the district RDTS number.  This is a unique number that identifies each individual school district with the data associated with it.  
+
+#### -Database Layout
+
+The below layout is a visual for how our different databases are joined.  The RCDTS is the primary key for all four tables.  
+<div id="header" align="center">
+    <img src="https://github.com/smlit30/Project_Test/blob/main/data_tables.jpg" width="900"/>
+</div>
+
 
 Lastly the machine learning alogrithm testing will be detialed out as follows below:  
 
@@ -27,27 +55,9 @@ Description of how data was split into training and testing sets
 We used scikit-learn to split the data into four data sets (two being training sets and two being testing sets) and calculated a summary report. X would hold the independent variables and Y would hold the dependent variable. After getting our model.fit, scikit-learn calculates the Y_prediction which is used to get a summary report. The summary report consists of R squared score, mean squared error, and root mean squared error.
 
 
-## Group Workflow
-
-![FUN AT SCHOOL](https://github.com/smlit30/Project_Test/blob/main/Workflow_7_22.jpg)
-
-### Extract
-For our data we found that best available data to test was from the Illinois State Board of Education.  We choose Illinois as the data was readily available, standardized and linked together through and RDTS number so that we could have a primary key to link everything together.  Initial thoughts were to include data from multiple states but the different reporting systems and metrics proved to be too high of a hurdle.  Thus Illinois was choosen as the state to run our test. 
-
-### Transform 
-While reviewing the data as shown through the "clean_data" notebook.  We choose factors that had enough data to test throughout the state.  "Enough" in this sense means any column that didn't have at least 750 data points for was dropped in the dataset.  The rest of the file goes through the process of joining the various tables on informaton from general school information, financial information & performance results. This was all gathered into one dataset so it could be reviewed easily and tested through Machine Learning. 
-
-### Load
-Once we finalized the dataframe it was then loaded in Amazon Web Services (AWS) in the form of a relational database.  This way the finalized dataframe could be downloaded publicly.  The dataframe was also sent into a CSV file on this github repository.
-
-#### -Database Layout
-
-The below layout is a visual for how our different databases are joined.  The RCDTS is the primary key for all four tables.  
-
-![data_tables](https://github.com/smlit30/Project_Test/blob/main/data_tables.jpg)
 
 ### Visualize 
-Lastly various visuals were created to give any casual viewer a better understanding of what the data means, how to interpret it and hopefully some usefull insights on how to move forward in the future.  
+The following visualizations help give a layout to what we found with our results and are presented through Tableau.    
 
 
 
