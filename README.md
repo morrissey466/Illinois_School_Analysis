@@ -43,7 +43,7 @@ The below layout is a visual for how our different databases are joined.  The RC
 </div>
 
 
-Lastly the machine learning alogrithm testing will be detialed out as follows below:  
+Lastly the machine learning alogrithm testing utilized through Python found the following results:  
 
 Description of preliminary data preprocessing
 The data was pulled from Illinois State Board of Education. We cleaned the data to retrieve our dependent and independent variables.
