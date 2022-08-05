@@ -23,7 +23,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
     <a href="index_copy.html" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
     <a href="about_data.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">About the Data</a>
     <a href="about_regression.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">About the Regression</a>
-    <a href="data_base.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Data Base</a>
+    <a href="data_base.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Database</a>
     <a href="about_us.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">About Us</a>
   </div>
 
@@ -31,7 +31,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
   <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
     <a href="#" class="w3-bar-item w3-button w3-padding-large">About the Data</a>
     <a href="#" class="w3-bar-item w3-button w3-padding-large">About the Regression</a>
-    <a href="#" class="w3-bar-item w3-button w3-padding-large">Data Base</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Database</a>
     <a href="#" class="w3-bar-item w3-button w3-padding-large">About Us</a>
   </div>
 </div>
@@ -48,64 +48,45 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
   <div class="w3-content">
     <div class="w3-twothird">
       <h1>Project Overview</h1>
-      <h5 class="w3-padding-32">This project will use data provided by Illinois State Education Board to determine which key features to perform a regression. The regression will quantify a relationship between ELA and Math scores, with other key features from the data set. Illinois has 487 districts. They have small, medium and large.  </h5>
-        <img src="Images/Sheet_1.png" alt="HTML5 Icon" style="width:200%;height:200%;">
+      <h5 class="w3-padding-32">This project will use data provided by Illinois State Education Board to determine which key features from Report Card Data Library strongly correlate with student performance. The regression will quantify a relationship of student performance with both ELA and Math scores. The key factors we chose to go with were proficiency from low-income families, total students (with breakdown by race and age), attendance rate, mobility rate, dropout and graduation rates, etc. This project will look at 487 districts from the state of Illinois. They have small, medium and large. There are two main features that will be used to analyze this project districts and high schools. Below are tableau visualizations from the data that was gathered.   </h5>
+        
+        
+        <div class='tableauPlaceholder' id='viz1659658143605' style='position: relative'><noscript><a href='#'><img alt='Map ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;8-&#47;8-4PresentationMap&#47;Map&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='8-4PresentationMap&#47;Map' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;8-&#47;8-4PresentationMap&#47;Map&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1659658143605');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+
+        <div class='tableauPlaceholder' id='viz1659657999804' style='position: relative'><noscript><a href='#'><img alt='Low Income ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;8-&#47;8-4LowIncomevsScores&#47;LowIncome&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='8-4LowIncomevsScores&#47;LowIncome' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;8-&#47;8-4LowIncomevsScores&#47;LowIncome&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1659657999804');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+
+        <div class='tableauPlaceholder' id='viz1659658315797' style='position: relative'><noscript><a href='#'><img alt='Salary vs Retention ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;8-&#47;8-4TeacherSalaryvsRetentionExp&#47;SalaryvsRetention&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='8-4TeacherSalaryvsRetentionExp&#47;SalaryvsRetention' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;8-&#47;8-4TeacherSalaryvsRetentionExp&#47;SalaryvsRetention&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1659658315797');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+        
+        <div class='tableauPlaceholder' id='viz1659487746826' style='position: relative'><noscript><a href='#'><img alt='Sheet 6 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;FP&#47;FP_ELA1_Trial&#47;Sheet6&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='FP_ELA1_Trial&#47;Sheet6' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;FP&#47;FP_ELA1_Trial&#47;Sheet6&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                
+        <script type='text/javascript'>                    var divElement = document.getElementById('viz1659487746826');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+        
         
       <p class="w3-text-grey">Text Here</p>
+
+     
     </div>
     
     <div class="w3-third w3-center">
-        <i class="fa fa-sitemap" style="font-size:100px;color:red"></i>
+        <i class="fa fa-pencil-square-o" style="font-size:100px;color:red"></i>
     </div>
   </div>
 </div>
 
-<!-- Second Grid -->
-<div class="w3-row-padding w3-padding-64 w3-container">
-    <div class="w3-content">
-      <div class="w3-twothird">
-        <h1>Text Here</h1>
-        <h5 class="w3-padding-32">Text Here</h5>
-  
-        <p class="w3-text-grey">Text Here</p>
-      </div>
-  
-      <div class="w3-third w3-center">
-        <i class="fa fa-folder-open" style="font-size:100px;color:red"></i>
-      </div>
-    </div>
-  </div>
 
-  <!-- Second Grid -->
-<div class="w3-row-padding w3-padding-64 w3-container">
-    <div class="w3-content">
-      <div class="w3-twothird">
-        <h1>Text Here</h1>
-        <h5 class="w3-padding-32">Text Here</h5>
-  
-        <p class="w3-text-grey">Text Here</p>
-      </div>
-  
-      <div class="w3-third w3-center">
-        <i class="fa fa-database" style="font-size:100px;color:red"></i>
-      </div>
-    </div>
-  </div>
 
 <!-- Last Grid -->
 <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
   <div class="w3-content">
     <div class="w3-third w3-center">
       <i class="fa fa-coffee w3-padding-64 w3-text-red w3-margin-right"></i>
+      
     </div>
 
     <div class="w3-twothird">
-      <h1>Lorem Ipsum</h1>
-      <h5 class="w3-padding-32">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h5>
+      <h1>Text Here</h1>
+      <h5 class="w3-padding-32">Text Here</h5>
 
-      <p class="w3-text-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-        laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <p class="w3-text-grey">Text Here</p>
     </div>
   </div>
 </div>
