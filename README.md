@@ -54,6 +54,28 @@ The data can’t be divided into two separate categories because of the mass amo
 Description of how data was split into training and testing sets
 We used scikit-learn to split the data into four data sets (two being training sets and two being testing sets) and calculated a summary report. X would hold the independent variables and Y would hold the dependent variable. After getting our model.fit, scikit-learn calculates the Y_prediction which is used to get a summary report. The summary report consists of R squared score, mean squared error, and root mean squared error.
 
+The following pictures show the follwing results between the Math & ELA results between the factors of class size and schools with low income families. 
+
+Class Size & ELA Scores
+<div id="header" align="center">
+    <img src="https://github.com/smlit30/Project_Test/blob/main/class_size_ELA.jpg" width="500"/>
+</div>
+
+Class Size & Math Scores
+<div id="header" align="center">
+    <img src="https://github.com/smlit30/Project_Test/blob/main/class_size_math.jpg" width="500"/>
+</div>
+
+School % of low income families & ELA Scores
+<div id="header" align="center">
+    <img src="https://github.com/smlit30/Project_Test/blob/main/low_income_ELA.jpg" width="500"/>
+</div>
+
+School % of low income families & Math Scores
+<div id="header" align="center">
+    <img src="https://github.com/smlit30/Project_Test/blob/main/low_income_math.jpg" width="500"/>
+</div>
+
 
 
 ### Visualize 
@@ -62,19 +84,14 @@ The following visualizations help give a layout to what we found with our result
 
 
 ## Visuals for this Project
-Our first visuals includeda layout of zip codes with their proficiency % of ELA & Math scores.
-https://public.tableau.com/app/profile/spencer.litzau/viz/FP_Zip1_Trial/Sheet1
+To help better display our results and finding the below tableau visualization dashboard is available.  
 
-https://public.tableau.com/app/profile/spencer.litzau/viz/FP_Zip2_Trial/Sheet2
+https://public.tableau.com/app/profile/spencer.litzau/viz/IllinoisSchoolData8-6/Dashboard1
 
+The map shows the different city each district is in with a description of the ELA & Math scores when it is highlighted.  The graphs show a combined score for the ELA & Math versus different variables to show which factors may play a role in helping improve test score performance. 
 
-These next visuals show ELA & Math proficiency of different schools with the average admin salary and vs teach salary as the Y axis. 
-https://public.tableau.com/app/profile/spencer.litzau/viz/FP_ELA1_Trial/Sheet6
+You can also select different tabs to get a more in depth look at each graph.  
 
-https://public.tableau.com/app/profile/spencer.litzau/viz/FP_ELA2_Trial/Sheet7
-
-Lastly we have chronic absenteeism compared to math proficiency scores.  
-https://public.tableau.com/app/profile/spencer.litzau/viz/FP_MP2_Trial/Sheet5
 
 
 ## Results Summary
