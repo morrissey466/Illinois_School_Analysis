@@ -45,7 +45,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
   <div class="w3-content">
     <div class="w3-twothird">
       <h1>Extract</h1>
-      <h5 class="w3-padding-32">The Report Card Data Library is a repository created by the state of Illinois. From the years available on the repository our team chose to use data from 2017-2018. Our team was able to use gather our data from “2018 Report Card Public Data Set” (Report Card) and “2018 PARCC/SAT Proficiency Report” (PARCC). The Report Card held most of the data for the project, while the PARCC was used for the ELA and Math scores. Report Card was a xlsx file with eight worksheets: Important Notes, General, Financial, ELA and Math, PARCC, SAT, ISA, and DLM. From there we chose to use data from General and Financial. The general worksheet had 4,753 rows with 390 columns. PARCC held data from High School SAT scores. We found the best performance metrics were the results from Standardized test metrics on Math and ELA (English and Language Arts score.   </h5>
+      <h5 class="w3-padding-32">The Report Card Data Library is a repository created by the state of Illinois. From the years available on the repository our team chose to use data from 2017-2018. Our team used the “2018 Report Card Public Data Set” (Report Card) and “2018 PARCC/SAT Proficiency Report” (PARCC) data set. The Report Card held most of the data for the project, while the PARCC was used for the ELA and Math scores. Report Card was a xlsx file with eight worksheets: Important Notes, General, Financial, ELA and Math, PARCC, SAT, ISA, and DLM. From there we chose to use data from General and Financial worksheet. The general worksheet had 4,753 rows with 390 columns with many columns with limited data. PARCC held data from High School SAT scores. We found the best performance metrics were the results from Standardized test metrics on Math and ELA (English and Language Arts score) found in the PARCC dataset.   </h5>
 
     </div>
     
@@ -60,8 +60,16 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
     <div class="w3-content">
       <div class="w3-twothird">
         <h1>Transform</h1>
-        <h5 class="w3-padding-32">To transform the data to be more usable in our test we looked at all the factors that data was collected on including proficiency from low-income families, total students (with breakdown by race and age), attendance rate, mobility rate, dropout & graduation rates with many others. Using Python & Pandas we created filters so that we dropped any data that didn't have sufficient data collected (less than 750 districts). Our team then reviewed the remaining data and used what we though would have the strongest correlation to the test performance results. </h5>
-  
+        <h5 class="w3-padding-32">In order to make the data more usable in our test we looked at all the factors from the data collected including proficiency from low-income families, total students (with breakdown by race and age), attendance rate, mobility rate, dropout & graduation rates with many others. Using Python & Pandas we created filters to drop any data that did not have sufficient data collected (less than 750 districts). Our team then reviewed the remaining factors and selected the factors we thought would have the strongest correlation to the test performance results. </h5>
+        
+        <h3>Districts</h3>
+        <img src="Images/Districts.png" alt="HTML5 Icon" style="width:200%;height:200%;">
+        <h3>High Schools</h3>
+        <img src="Images/High_Schools.png" alt="HTML5 Icon" style="width:200%;height:200%;">
+        <h3>Financials</h3>
+        <img src="Images/Financials.png" alt="HTML5 Icon" style="width:200%;height:200%;">
+        <h3>ELA and Math SAT Test Scores</h3>
+        <img src="Images/ELA:Math.png" alt="HTML5 Icon" style="width:200%;height:200%;">
       </div>
   
       <div class="w3-third w3-center">
@@ -78,12 +86,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
         <h5 class="w3-padding-32">Using python, the dataframes were then uploaded to a sql database hosted on Amazon Web Services. This way the end results could be pulled from a public database and available to the public.
             The relational database layout is set up as shown below with the primary key as the district RDTS number. This is a unique number that identifies each individual school district with the data associated with it.
             </h5>
-        <h3>Districts</h3>
-        <img src="Images/Districts.png" alt="HTML5 Icon" style="width:200%;height:200%;">
-        <h3>High Schools</h3>
-        <img src="Images/High_Schools.png" alt="HTML5 Icon" style="width:200%;height:200%;">
-        <h3>ELA and Math SAT Test Scores</h3>
-        <img src="Images/ELA:Math.png" alt="HTML5 Icon" style="width:200%;height:200%;">
+       
       </div>
   
       <div class="w3-third w3-center">
@@ -107,21 +110,6 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
     </div>
   </div>
 
-
-    <!-- Fifth Grid -->
-<div class="w3-row-padding w3-padding-64 w3-container">
-    <div class="w3-content">
-      <div class="w3-twothird">
-        <h1>Database</h1>
-
-        <h5 class="w3-padding-32">AWS-SQL-JupyterNotebook</h5>
-      </div>
-  
-      <div class="w3-third w3-center">
-        <i class="fa fa-file-code-o" style="font-size:100px;color:red"></i>
-      </div>
-    </div>
-  </div>
 
 <!-- Last Grid -->
 <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
