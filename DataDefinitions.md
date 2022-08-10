@@ -23,6 +23,10 @@ https://www.isbe.net/Documents/2018-Report-Card-Glossary-Terms.pdf
 
     Student Enrollment - Low Income % - Percent of enrolled students who who receive or live in households that receive Supplemental Nutrition Assistance Program or Temporary Assistance to Needy Families benefits; are classified as homeless, migrant,runaway, Head Start, or foster children; or live in a household where the household income meets the U.S.Department of Agriculture income guidelines to receive free or reduced-price meals.
 
+    Community College Remediation - Community College remediation is the percentage of graduates who attended an Illinois community
+    college and were enrolled in remedial courses. The source for this metric is from Illinois Community
+    College Board (ICCB) and Student Information System (SIS). Remediation is tracked in aggregate
+    (Overall) and can be disaggregated by subject, Reading, Mathematics and Communications. 
 
     Avg. Class Size - All grades. The total number of students enrolled divided by the number of classes. 
 
