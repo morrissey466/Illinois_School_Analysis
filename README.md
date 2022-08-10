@@ -82,6 +82,26 @@ School % of low income families & Math Scores
     <img src="https://github.com/smlit30/Project_Test/blob/main/low_income_math.jpg" width="500"/>
 </div>
 
+The remaining factors yielded the below results of our linear regression algorithm.  
+
+
+<div id="header" align="center">
+    <img src="https://github.com/smlit30/Project_Test/blob/main/lr_hs_results.jpg" width="500"/>
+</div>
+
+<div id="header" align="center">
+    <img src="https://github.com/smlit30/Project_Test/blob/main/lr_ds_results.jpg" width="500"/>
+</div>
+
+<div id="header" align="center">
+    <img src="https://github.com/smlit30/Project_Test/blob/main/lr_fn_results.jpg" width="500"/>
+</div>
+
+Each table shows the impact of each factor toward the model score. In the High School table, we can see Teacher Retention Rate, Community College Remediation, and Chronic Absenteeism being factors in causing the model to decrease. This shows they are import factors to determined the student success. 
+
+In the District table, we can see Student Enrollment – Low Income being the only big factor in causing the model to decrease. This decreases the model below 0.4 making it a huge factor in student success. 
+
+In the Financial table, we can see the factors make little differences when it comes to student success. 
 
 
 ### Visualize 
