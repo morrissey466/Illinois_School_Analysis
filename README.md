@@ -97,12 +97,6 @@ The remaining factors yielded the below results of our linear regression algorit
     <img src="https://github.com/smlit30/Project_Test/blob/main/lr_fn_results.jpg" width="500"/>
 </div>
 
-Each table shows the impact of each factor toward the model score. In the High School table, we can see Teacher Retention Rate, Community College Remediation, and Chronic Absenteeism being factors in causing the model to decrease. This shows they are import factors to determined the student success. 
-
-In the District table, we can see Student Enrollment – Low Income being the only big factor in causing the model to decrease. This decreases the model below 0.4 making it a huge factor in student success. 
-
-In the Financial table, we can see the factors make little differences when it comes to student success. 
-
 
 ### Visualize 
 The following visualizations help give a layout to what we found with our results and are presented through Tableau.    
@@ -122,8 +116,12 @@ You can also select different tabs to get a more in depth look at each graph.
 
 ## Results Summary
 
-We found the following results from our regression test on different school factors for performance.  
-  
+Each table shows the impact of each factor toward the model score. In the High School table, we can see Teacher Retention Rate, Community College Remediation, and Chronic Absenteeism being factors in causing the model to decrease. This shows they are import factors to determined the student success. 
+
+In the District table, we can see Student Enrollment – Low Income being the only big factor in causing the model to decrease. This decreases the model below 0.4 making it a huge factor in student success. 
+
+In the Financial table, we can see the factors make little differences when it comes to student success. 
+
 
 ## Definitions For Tested Factors
 
