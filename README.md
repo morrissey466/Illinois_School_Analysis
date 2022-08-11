@@ -116,12 +116,34 @@ You can also select different tabs to get a more in depth look at each graph.
 
 ## Results Summary
 
-Each table shows the impact of each factor toward the model score. In the High School table, we can see Teacher Retention Rate, Community College Remediation, and Chronic Absenteeism being factors in causing the model to decrease. This shows they are import factors to determined the student success. 
+The Equation used for getting these results:
 
-In the District table, we can see Student Enrollment – Low Income being the only big factor in causing the model to decrease. This decreases the model below 0.4 making it a huge factor in student success. 
+<div id="header" align="center">
+    <img src="https://github.com/smlit30/Project_Test/blob/main/results1.jpg" width="500"/>
+</div>
 
-In the Financial table, we can see the factors make little differences when it comes to student success. 
+How did the factors affect SAT scores?
+We broke up these factors up into 3 sections, High Schools, Districts, and District Financials. 
 
+These factors gave results we expected and some not so much. 
+
+<div id="header" align="center">
+    <img src="https://github.com/smlit30/Project_Test/blob/main/results2.jpg" width="500"/>
+</div>
+
+We can see Teacher Retention Rate, Advance Courses, Physical Education, and Avg Class Size all giving positive correlations towards SAT scores. Then, Community Remediation, Chronic Absenteeism and Chronic Absenteeism Low Income showing negative correlations. Most of the positive correlations were expected but two surprising factors were Avg Physical Education and Avg Class Size. We tend to see lower student teacher ratio being better but from the data we can conclude otherwise.
+
+<div id="header" align="center">
+    <img src="https://github.com/smlit30/Project_Test/blob/main/results3.jpg" width="500"/>
+</div>
+
+We can see Student Enrollment, Avg Class Size, Avg Teaching Experience, Master Degree, Teacher Retention Rate, Teacher Avg Salary, and Admin Avg Salary all have giving positive correlations towards SAT scores. Then, Student Enrollment Low Income and Bachelor Degree showing negative correlations. Most of these were to be expected with more experience comes better performance. But Bachelor Degree being negative was surprising. A high amount of Bachelor degree teachers may be new teachers which would trend well with the avg teaching experience. 
+
+<div id="header" align="center">
+    <img src="https://github.com/smlit30/Project_Test/blob/main/results4.jpg" width="500"/>
+</div>
+
+We can see Total Expenditures, Education Funding, and Local Property Taxes all have giving positive correlations towards SAT scores. Then, Total School Tax Rate, General Admin Dollars, General Sate Aid Dollars, and Federal Funding showing negative correlations. Each of these districts were looked at per student to make everything similar. The total school tax rate has a major correlation in the negative. 
 
 ## Definitions For Tested Factors
 
