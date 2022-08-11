@@ -54,11 +54,28 @@ The data can’t be divided into two separate categories because of the mass amo
 Description of how data was split into training and testing sets
 We used scikit-learn to split the data into four data sets (two being training sets and two being testing sets) and calculated a summary report. X would hold the independent variables and Y would hold the dependent variable. After getting our model.fit, scikit-learn calculates the Y_prediction which is used to get a summary report. The summary report consists of R squared score, mean squared error, and root mean squared error.
 
+Low Income vs ELA
+<div id="header" align="center">
+    <img src="https://github.com/smlit30/Project_Test/blob/main/low_income_ELA.jpg" width="500"/>
+</div>
 
+Low Income vs Math
+<div id="header" align="center">
+    <img src="https://github.com/smlit30/Project_Test/blob/main/low_income_math.jpg" width="500"/>
+</div>
+
+Class Size vs ELA
+<div id="header" align="center">
+    <img src="https://github.com/smlit30/Project_Test/blob/main/class_size_ELA.jpg" width="500"/>
+</div>
+
+Class Size vs Math
+<div id="header" align="center">
+    <img src="https://github.com/smlit30/Project_Test/blob/main/class_size_math.jpg" width="500"/>
+</div>
 
 ### Visualize 
 The following visualizations help give a layout to what we found with our results and are presented through Tableau.    
-
 
 
 ## Visuals for this Project
