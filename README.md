@@ -54,48 +54,6 @@ The data can’t be divided into two separate categories because of the mass amo
 Description of how data was split into training and testing sets
 We used scikit-learn to split the data into four data sets (two being training sets and two being testing sets) and calculated a summary report. X would hold the independent variables and Y would hold the dependent variable. After getting our model.fit, scikit-learn calculates the Y_prediction which is used to get a summary report. The summary report consists of R squared score, mean squared error, and root mean squared error.
 
-The below is the R2 equation that was used to calculate how well the factors fit the model.  
-<div id="header" align="center">
-    <img src="https://github.com/smlit30/Project_Test/blob/main/equation.jpg" width="500"/>
-</div>
-
-
-The following pictures show the follwing results between the Math & ELA results between the factors of class size and schools with low income families. 
-
-Class Size & ELA Scores
-<div id="header" align="center">
-    <img src="https://github.com/smlit30/Project_Test/blob/main/class_size_ELA.jpg" width="500"/>
-</div>
-
-Class Size & Math Scores
-<div id="header" align="center">
-    <img src="https://github.com/smlit30/Project_Test/blob/main/class_size_math.jpg" width="500"/>
-</div>
-
-School % of low income families & ELA Scores
-<div id="header" align="center">
-    <img src="https://github.com/smlit30/Project_Test/blob/main/low_income_ELA.jpg" width="500"/>
-</div>
-
-School % of low income families & Math Scores
-<div id="header" align="center">
-    <img src="https://github.com/smlit30/Project_Test/blob/main/low_income_math.jpg" width="500"/>
-</div>
-
-The remaining factors yielded the below results of our linear regression algorithm.  
-
-
-<div id="header" align="center">
-    <img src="https://github.com/smlit30/Project_Test/blob/main/lr_hs_results.jpg" width="500"/>
-</div>
-
-<div id="header" align="center">
-    <img src="https://github.com/smlit30/Project_Test/blob/main/lr_ds_results.jpg" width="500"/>
-</div>
-
-<div id="header" align="center">
-    <img src="https://github.com/smlit30/Project_Test/blob/main/lr_fn_results.jpg" width="500"/>
-</div>
 
 
 ### Visualize 
@@ -112,9 +70,6 @@ The map shows the different city each district is in with a description of the E
 
 You can also select different tabs to get a more in depth look at each graph.  
 
-
-
-## Results Summary
 
 The Equation used for getting these results:
 
@@ -144,6 +99,32 @@ We can see Student Enrollment, Avg Class Size, Avg Teaching Experience, Master D
 </div>
 
 We can see Total Expenditures, Education Funding, and Local Property Taxes all have giving positive correlations towards SAT scores. Then, Total School Tax Rate, General Admin Dollars, General Sate Aid Dollars, and Federal Funding showing negative correlations. Each of these districts were looked at per student to make everything similar. The total school tax rate has a major correlation in the negative. 
+
+The Equation used for getting these results:
+
+<div id="header" align="center">
+    <img src="https://github.com/smlit30/Project_Test/blob/main/equation.jpg" width="300"/>
+</div>
+
+Next, we decided to see how each factor affected the predicted model. These are the R squared results:
+
+<div id="header" align="center">
+    <img src="https://github.com/smlit30/Project_Test/blob/main/final1.jpg" width="500"/>
+</div>
+
+There were 2 factors which made significant impacts to the predicted model, Community College Remediation and Chronic Absenteeism. 
+
+<div id="header" align="center">
+    <img src="https://github.com/smlit30/Project_Test/blob/main/final2.jpg" width="500"/>
+</div>
+
+There was 1 factor which made significant impact to the predicted model, Student Enrollment – Low Income %. This factor shows how important a homelife environment can impact a student’s success. This dropped the model prediction by 43%. 
+
+<div id="header" align="center">
+    <img src="https://github.com/smlit30/Project_Test/blob/main/final3.jpg" width="500"/>
+</div>
+
+For Financial, we can see the factors make little differences to the predicted model. 
 
 ## Definitions For Tested Factors
 
