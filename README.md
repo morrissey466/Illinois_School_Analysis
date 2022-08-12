@@ -120,10 +120,10 @@ We can see Student Enrollment, Avg Class Size, Avg Teaching Experience, Master D
 
 We can see Total Expenditures, Education Funding, and Local Property Taxes all have giving positive correlations towards SAT scores. Then, Total School Tax Rate, General Admin Dollars, General Sate Aid Dollars, and Federal Funding showing negative correlations. Each of these districts were looked at per student to make everything similar. The total school tax rate has a major correlation in the negative. 
 
-Here is a link to the graphs for each correlation:
-High School: https://github.com/morrissey466/Illinois_School_Analysis/tree/main/Resources/HS_Graphs
-District: https://github.com/morrissey466/Illinois_School_Analysis/tree/main/Resources/Dist_Graphs
-Financials: https://github.com/morrissey466/Illinois_School_Analysis/tree/main/Resources/Fin_Graphs
+Here is a link to the graphs for each correlation: </br>
+High School: https://github.com/morrissey466/Illinois_School_Analysis/tree/main/Resources/HS_Graphs </br>
+District: https://github.com/morrissey466/Illinois_School_Analysis/tree/main/Resources/Dist_Graphs </br>
+Financials: https://github.com/morrissey466/Illinois_School_Analysis/tree/main/Resources/Fin_Graphs </br>
 
 
 
@@ -153,8 +153,8 @@ There was 1 factor which made significant impact to the predicted model, Student
 
 For Financial, we can see the factors make little differences to the predicted model. 
 
-Here is a link to the graphs for each R squared calculation:
-https://github.com/morrissey466/Illinois_School_Analysis/tree/main/Resources/R2_Graphs
+Here is a link to the graphs for each R squared calculation: </br>
+https://github.com/morrissey466/Illinois_School_Analysis/tree/main/Resources/R2_Graphs </br>
 
 
 ## Definitions For Tested Factors
