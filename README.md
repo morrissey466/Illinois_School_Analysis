@@ -96,8 +96,6 @@ The Equation used for getting these results:
 <div id="header" align="center">
     <img src="https://github.com/smlit30/Project_Test/blob/main/results1.jpg" width="500"/>
 </div>
-(This link will bring you to all of the questions for the Linear Regression)
-(https://github.com/morrissey466/Illinois_School_Analysis/tree/main/Resources/R2_Graphs)
 
 How did the factors affect SAT scores?
 We broke up these factors up into 3 sections, High Schools, Districts, and District Financials. 
@@ -121,6 +119,13 @@ We can see Student Enrollment, Avg Class Size, Avg Teaching Experience, Master D
 </div>
 
 We can see Total Expenditures, Education Funding, and Local Property Taxes all have giving positive correlations towards SAT scores. Then, Total School Tax Rate, General Admin Dollars, General Sate Aid Dollars, and Federal Funding showing negative correlations. Each of these districts were looked at per student to make everything similar. The total school tax rate has a major correlation in the negative. 
+
+Here is a link to the graphs for each correlation:
+High School: https://github.com/morrissey466/Illinois_School_Analysis/tree/main/Resources/HS_Graphs
+District: https://github.com/morrissey466/Illinois_School_Analysis/tree/main/Resources/Dist_Graphs
+Financials: https://github.com/morrissey466/Illinois_School_Analysis/tree/main/Resources/Fin_Graphs
+
+
 
 The Equation used for getting these results:
 
@@ -147,6 +152,10 @@ There was 1 factor which made significant impact to the predicted model, Student
 </div>
 
 For Financial, we can see the factors make little differences to the predicted model. 
+
+Here is a link to the graphs for each R squared calculation:
+https://github.com/morrissey466/Illinois_School_Analysis/tree/main/Resources/R2_Graphs
+
 
 ## Definitions For Tested Factors
 
