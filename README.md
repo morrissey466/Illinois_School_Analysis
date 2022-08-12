@@ -45,13 +45,10 @@ The below layout is a visual for how our different databases are joined.  The RC
 
 Lastly the machine learning alogrithm testing utilized through Python found the following results:  
 
-Description of preliminary data preprocessing
 The data was pulled from Illinois State Board of Education. We cleaned the data to retrieve our dependent and independent variables.
 
-Description of preliminary features engineering and preliminary feature selection, including their decision-making process
 The data can’t be divided into two separate categories because of the mass amount of score variations. This led us to use linear regression over classification analysis.
 
-Description of how data was split into training and testing sets
 We used scikit-learn to split the data into four data sets (two being training sets and two being testing sets) and calculated a summary report. X would hold the independent variables and Y would hold the dependent variable. After getting our model.fit, scikit-learn calculates the Y_prediction which is used to get a summary report. The summary report consists of R squared score, mean squared error, and root mean squared error.
 
 Low Income vs ELA
