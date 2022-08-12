@@ -96,6 +96,8 @@ The Equation used for getting these results:
 <div id="header" align="center">
     <img src="https://github.com/smlit30/Project_Test/blob/main/results1.jpg" width="500"/>
 </div>
+(This link will bring you to all of the questions for the Linear Regression)
+(https://github.com/morrissey466/Illinois_School_Analysis/tree/main/Resources/R2_Graphs)
 
 How did the factors affect SAT scores?
 We broke up these factors up into 3 sections, High Schools, Districts, and District Financials. 
